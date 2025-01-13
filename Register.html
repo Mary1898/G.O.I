@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Get Over It</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to G.O.I</h1>
+    </header>
+    <main>
+        <h2>Register to Get Started</h2>
+        <form action="register.html" method="post" class="registration-form">
+            <label for="username">Dummy Name:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="8" pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 alphanumeric characters" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <footer>
+        <p>GOI@2025</p>
+    </footer>
+</body>
+</html>
